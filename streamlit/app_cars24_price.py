@@ -1,5 +1,4 @@
-from traitlets import default
-import streamlit as st 
+import streamlit as st
 import pickle 
 import json 
 import sklearn
