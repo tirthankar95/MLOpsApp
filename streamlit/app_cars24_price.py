@@ -2,17 +2,19 @@ import streamlit as st
 import pickle 
 import json 
 import sklearn
+import os 
 
-with open("checkpoint/model.pkl", "rb") as file:
+base_dir = os.path.join(os.getcwd(), "streamlit", "checkpoint")
+with open(f"{base_dir}/model.pkl", "rb") as file:
     model = pickle.load(file)
 
-with open("checkpoint/scaler.pkl", "rb") as file:
+with open(f"{base_dir}/scaler.pkl", "rb") as file:
     scaler = pickle.load(file)
 
-with open("checkpoint/feature_map.json", "r") as file:
+with open(f"{base_dir}/feature_map.json", "r") as file:
     feature_map = json.load(file)
 
-with open("checkpoint/default_values.json", "r") as file:
+with open(f"{base_dir}/default_values.json", "r") as file:
     default_map = json.load(file)
 
 col1, col2 = st.columns(2)
