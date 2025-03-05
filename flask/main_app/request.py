@@ -1,7 +1,8 @@
 import requests
 import json
 
-url = "http://127.0.0.1:8080/predict"
+# url = "http://18.206.235.230:5000/predict"
+url = "http://localhost:5000/predict"
 
 data = {
     "brand_option": 1,

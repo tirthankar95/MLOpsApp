@@ -36,4 +36,5 @@ def predict():
         return {'price': f'Rs {round(model.predict(X)[0], 2)}'}
     return {'price' f'bad request'}
 
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
