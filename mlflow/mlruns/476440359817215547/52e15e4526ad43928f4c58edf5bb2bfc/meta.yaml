@@ -1,0 +1,15 @@
+artifact_uri: file:///home/tirthankar-mittra/MLOpsApp/mlflow/mlruns/476440359817215547/52e15e4526ad43928f4c58edf5bb2bfc/artifacts
+end_time: 1741438789534
+entry_point_name: ''
+experiment_id: '476440359817215547'
+lifecycle_stage: active
+run_id: 52e15e4526ad43928f4c58edf5bb2bfc
+run_name: RF_2
+run_uuid: 52e15e4526ad43928f4c58edf5bb2bfc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741438785472
+status: 3
+tags: []
+user_id: tirthankar-mittra

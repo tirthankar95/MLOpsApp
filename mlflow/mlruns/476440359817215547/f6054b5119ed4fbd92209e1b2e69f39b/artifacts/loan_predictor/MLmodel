@@ -1,0 +1,37 @@
+artifact_path: loan_predictor
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.20.3
+model_size_bytes: 34468
+model_uuid: 24944e00cab144368d48940269ac19f5
+run_id: f6054b5119ed4fbd92209e1b2e69f39b
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Gender", "required": true}, {"type": "double",
+    "name": "Married", "required": true}, {"type": "long", "name": "Education", "required":
+    true}, {"type": "double", "name": "Self_Employed", "required": true}, {"type":
+    "long", "name": "ApplicantIncome", "required": true}, {"type": "double", "name":
+    "CoapplicantIncome", "required": true}, {"type": "double", "name": "LoanAmount",
+    "required": true}, {"type": "double", "name": "Loan_Amount_Term", "required":
+    true}, {"type": "double", "name": "Credit_History", "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-03-08 13:00:17.946413'

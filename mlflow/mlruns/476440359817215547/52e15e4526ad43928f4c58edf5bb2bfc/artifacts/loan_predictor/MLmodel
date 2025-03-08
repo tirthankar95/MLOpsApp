@@ -1,0 +1,20 @@
+artifact_path: loan_predictor
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 2.20.3
+model_size_bytes: 171523
+model_uuid: d544784a7e9343c48d64e01a152587c6
+run_id: 52e15e4526ad43928f4c58edf5bb2bfc
+utc_time_created: '2025-03-08 12:59:45.534615'

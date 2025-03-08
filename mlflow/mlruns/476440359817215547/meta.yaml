@@ -1,0 +1,6 @@
+artifact_location: file:///home/tirthankar-mittra/MLOpsApp/mlflow/mlruns/476440359817215547
+creation_time: 1741438481688
+experiment_id: '476440359817215547'
+last_update_time: 1741438481688
+lifecycle_stage: active
+name: Loan_Prediction
