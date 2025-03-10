@@ -10,3 +10,7 @@ ML_OPS
        - '-v' for verbose 
        - '-p no:warnings' for supressing warnings 
     b. app.test_client() automatically triggers the server. There is no need to run the flask app separately as it might binf the 5000 port and then our pytest won't run. 
+
+## To Do 
+1. Add CD pipeline
+2. Add minimal requirements
